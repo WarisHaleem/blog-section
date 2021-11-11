@@ -1,0 +1,111 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+p,h1,h2,h3{
+    margin: 0px;
+    padding: 0px;
+}
+
+.blog{
+    max-height: 100vh;
+    margin: 0 auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 40px;
+}
+
+.title h1{
+    color: rgba(0, 0, 0, 0.8);
+    font-family: 'Merriweather', serif;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.title p{
+    color: rgba(0, 0, 0, 0.7);
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+}
+
+.blogs-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding: 10px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.card .image #date{
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    background-color:#1b2024;
+    position: absolute;
+    top: 165px;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+
+.card #date span{
+    background-color: #000;
+    display: block;
+    font-weight: 200;
+    padding: 5px;
+    margin: 0px;
+}
+
+.card .text{
+    padding: 20px 35px;
+}
+
+.card .text h3{
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.card .text #admin{
+    color: #f6a903;
+    padding: 10px;
+}
+
+.fas{
+    color: #000;
+}
+
+.card .text #explaination{
+    color: rgba(0, 0, 0, 0.7);
+    font-family: 'Roboto', sans-serif;
+}
+
+.card .text button{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    border-style: none;
+    background-color: #f6a903;
+    padding: 10px;
+    margin-top: 20px;
+}
